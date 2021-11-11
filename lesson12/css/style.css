@@ -1,0 +1,55 @@
+
+body	{
+
+
+color: #333;
+	}
+.section{
+	padding: 30px 0;
+}
+.header{
+font-size:24px ;
+margin: 60px auto;
+}
+
+.header span{
+	display: block;
+}
+
+.form{
+	border: 5px solid #2727d9; 
+	padding: 35px 20px;
+}
+.form-header,.section-header{
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 43px;
+}
+.form input{
+	margin-bottom: 5px; 
+
+
+}
+.form-btn{
+	margin: 9px auto;
+	background-color: #2727d9;
+}
+.feature{
+	margin-top: 60px;
+}
+.feature p{
+	margin-top: 20px;
+}
+.form-btn-2{
+	margin: 97px auto;
+	background-color: #2727d9;
+}
+.video{
+	margin-bottom: 30px;
+}
+.feature-box{
+	height: 160px;
+}
+.clients{
+	margin: 30px auto;
+}
