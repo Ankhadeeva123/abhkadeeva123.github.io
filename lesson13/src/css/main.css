@@ -1,0 +1,127 @@
+.btn{
+  
+
+  background: linear-gradient(to top,#0aa1a1,#06bfbf);
+  border-style: solid none;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  width: 260px;
+  height: 45px;
+  display: inline-block;
+  margin-top: 14px;
+
+}
+
+.btnt {
+  font-size: 16px;
+  font-family: "Arial";
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+
+
+}
+
+form{
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cfdede;
+  background: linear-gradient(to top,#ffffff,#ebf4f4);
+  left: 50%;
+  margin-left: -500px;
+  position: absolute;
+  width: 1000px;
+  margin-top: 15%;
+  display: inline-block;
+  height: 370px;
+  width: 320px;
+ 
+
+}
+
+
+
+.sectionform{
+  
+  padding-top: 26px;
+  padding-left: 18px;
+  padding-right: 15px;
+
+
+
+}
+body{
+  background-image: url(/Users/aroslav/Desktop/lesson13/src/img/bg.png);
+}
+
+.form input {
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+  
+  background-image: url(/Users/aroslav/Desktop/lesson13/src/img/bg.png);
+}
+
+
+.em-input, .pw-input{
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+.em-input::-webkit-input-placeholder{
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(119, 119, 119);
+  line-height: 1;
+  text-align: left;
+   font-style: italic;
+}
+   
+label{
+
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 0.833;
+  text-align: left;
+  display: inline-block;
+
+
+}
+
+.required{
+  color: #01b3b3;
+}
+
+.ribbon{
+
+  background: linear-gradient(to top,#0aa1a1,#06bfbf);
+  border-style: solid none;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  margin-top: -9px;
+  margin-left: 19px;
+  width: 149px;
+  height: 25px;
+ 
+}
+
+.ribt {
+  
+  font-size: 12px;
+  font-family: "Arial";
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+  vertical-align: middle;
+}
+
+
+
