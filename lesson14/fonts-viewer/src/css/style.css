@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+    font-family: 'Bebas Neue Cyrillic';
+    src: url('../fonts/BebasNeueCyrillic.woff2') format('woff2'),
+        url('../fonts/BebasNeueCyrillic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+   }
+
+   @font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.eot');
+    src: local('../fonts/Lato Regular'), local('Lato-Regular'),
+        url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Regular.woff') format('woff'),
+        url('../fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: 'Lobster';
+    src: url('../fonts/Lobster-Regular.woff2') format('woff2'),
+        url('../fonts/Lobster-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.text-box{
+	padding-top: 2rem;
+}
+.resault {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+.resault-1{
+font-family: 'Open Sans', sans-serif;
+
+}
+.resault-2{
+font-family: 'Bebas Neue Cyrillic', sans-serif;
+}
+.resault-3{
+font-family: 'Lato', sans-serif;
+}
+.resault-4{
+font-family: 'Lobster', sans-serif;
+}
