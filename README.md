@@ -9,4 +9,4 @@
 
 [Урок 14](https://abkhadeeva123.github.io/lesson14/fonts-viewer/src/ " - работа со шрифтами") 
 
-[Урок 15](https://abkhadeeva123.github.io/lesson15/ " -  псевдоклассы") 
+[Урок 15](https://abkhadeeva123.github.io/lesson15/ " -  псевдоклассы и псевдоэлементы") 
