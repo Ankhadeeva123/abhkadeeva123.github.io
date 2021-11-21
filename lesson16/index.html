@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title>Слайдеры</title>
+</head>
+<body>
+
+<h1>Первое задание</h1>
+<br>
+<p>В слайдере должна быть возможность видеть миниатюры изображений, а также можно увеличить просмотр слайдера на весь экран. </p>
+<div class="slid1">
+<div class="fotorama"
+     data-nav="thumbs"
+     data-width="300"
+				data-allowfullscreen="native">
+  <a href="img/img1.jpg"><img src="1_thumb.jpg" width="64"></a>
+  <a href="img/img2.jpg"><img src="2_thumb.jpg" width="64" ></a>
+   <a href="img/img3.jpg"><img src="2_thumb.jpg" width="64" ></a>
+</div>
+</div>
+<br>
+<h1>Второе задание</h1>
+<br>
+<p>Слайдер прокручивается бесконечно, даже если в нем всего 3 фотографии.</p>
+<div class="slid2">
+	<div class="fotorama"
+     data-loop="true"
+     data-width="300">
+  <img src="img/img1.jpg">
+  <img src="img/img2.jpg">
+  <img src="img/img3.jpg">
+</div>
+</div>
+<br>
+<h1>Третье задание</h1>
+<br>
+<p>Слайды прокручиваются автоматически через каждые 4 секунды.</p>
+<div class="fotorama"
+     data-autoplay="true"
+     data-autoplay="4000"
+     data-width="300">
+  <img src="img/img1.jpg">
+  <img src="img/img2.jpg">
+  <img src="img/img3.jpg">
+</div>
+<br>
+<h1>Объединим все в одно</h1>
+<br>
+<div class="fotorama"
+     data-nav="thumbs"
+     data-width="300"
+     data-autoplay="true"
+     data-autoplay="4000"
+				data-allowfullscreen="native"
+				data-loop="true">
+  <a href="img/img1.jpg"><img src="1_thumb.jpg" width="64"></a>
+  <a href="img/img2.jpg"><img src="2_thumb.jpg" width="64" ></a>
+   <a href="img/img3.jpg"><img src="2_thumb.jpg" width="64" ></a>
+</div>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+</body>
+</html>
