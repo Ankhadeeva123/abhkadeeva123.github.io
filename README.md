@@ -11,4 +11,6 @@
 
 [Урок 15](https://abkhadeeva123.github.io/lesson15/ " -  псевдоклассы и псевдоэлементы") 
 
-[Урок 16](https://abkhadeeva123.github.io/lesson16/ " -  псевдоклассы и псевдоэлементы") 
+[Урок 16](https://abkhadeeva123.github.io/lesson16/ " -  галереи") 
+
+[Урок 17](https://abkhadeeva123.github.io/lesson17/ " -  всплывающие окна") 
