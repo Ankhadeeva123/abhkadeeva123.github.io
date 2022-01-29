@@ -1,0 +1,128 @@
+
+body{
+	background: url(../video/pexels.png);
+background-size: cover;
+	font-size: 24px;
+	width: 100%;
+	height: 100%;
+	font-style: Myriad Pro;
+/*	background: url(../img/bg.png) center repeat;*/
+}
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+ul{
+list-style: none;
+}
+.section{
+	background-size: cover;
+}
+.form1{
+display: inline-block;
+width: 580px;
+height: 370px;
+background-color: black;
+padding:72px 50px 43px 35px;
+/*border: 1px solid #84d3ed;*/
+
+border-radius: 5px;
+box-shadow: 0 0 0 1px #7dd7f4, 0 0 0 20px #0498c6;
+
+}
+
+.name::placeholder{
+	color:#fff;
+}
+.name{
+	width: 480px;
+	height: 60px;
+	margin-bottom: 30px;
+	background-color: #1b1a1a;
+	border-radius: 5px;
+	border: none;
+	color:#fff;
+	padding-left: 10px;
+
+}
+
+.pass{
+	width: 480px;
+	height: 60px;
+	background-color: #1b1a1a;
+	border-radius: 5px;
+	border: none;
+	color:#fff;
+	padding-left: 10px;
+}
+.pass::placeholder{
+	color:#fff;
+}
+.remember{
+	display: inline-block;
+	text-align: left;
+	margin-top: 22px;
+	margin-left: 10px;
+	color: #c51f03;
+	font-size: 15px;
+
+  animation-iteration-count: infinite;
+}
+.checkbox1{
+	margin-left: 10px;
+	margin-top: 20px;
+	display: inline-block;
+	font-size: 15px;
+	color: #6f6d6d;
+}
+.form-btn{
+	position: relative;
+	display: inline;
+  color: white;
+  text-decoration: none;
+  padding: 1px 2px;
+  outline: none;
+  border: none;
+  width: 130px;
+  height: 40px;
+		transform: translateX(300px);
+		font-size: 15px;
+		background: linear-gradient(#870801, #c01d03) #870801;
+  transition: 0.2s;
+
+
+
+
+}
+
+.nav{
+	height: 70px;
+	border: none;
+	padding-top: 12px;
+	padding-left: 20px;
+	position: relative;
+	
+}
+
+.li-btn{
+	margin-right: 10px;
+	border: none;
+	border-radius:5px 5px 0 0;
+	background-color: #fff;
+	color: #000;
+	text-shadow: 1px 1px #fff;
+
+}
+ li.active button{
+ 	background-color: #0498c6;
+ 	color:#fff;
+ 	text-shadow: 1px 1px #000;
+ }
+
+
