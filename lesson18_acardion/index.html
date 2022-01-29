@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+	<h1> <span>Ответы на вопросы</span></h1>
+	<h2>которые нам задают чаще всего</h2>
+
+  <ul class="accordion">
+  <li>
+    <button class="accordion-control">  Сколько времени может занять быстрая уборка 3-х комнатной квартиры?</button>
+    <div class="accordion-panel"> Быстрая уборка 3 комнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но, конечно, многое зависит от степени загрязненности и заставленности комнат..</div>
+  </li>
+  <li>
+    <button class="accordion-control">  Сколько времени может занять быстрая уборка 3-х комнатной квартиры?</button>
+    <div class="accordion-panel"> Быстрая уборка 3 комнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но, конечно, многое зависит от степени загрязненности и заставленности комнат..</div>
+  </li>
+  <li>
+    <button class="accordion-control">  Сколько времени может занять быстрая уборка 3-х комнатной квартиры?</button>
+    <div class="accordion-panel"> Быстрая уборка 3 комнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но, конечно, многое зависит от степени загрязненности и заставленности комнат.</div>
+  </li>
+  <li>
+    <button class="accordion-control">  Сколько времени может занять быстрая уборка 3-х комнатной квартиры?</button>
+    <div class="accordion-panel"> Быстрая уборка 3 комнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но, конечно, многое зависит от степени загрязненности и заставленности комнат.</div>
+  </li>
+  
+</ul>
+          
+      
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    
+	<script>$('.accordion').on('click', '.accordion-control', function(e){
+  e.preventDefault(); //prevent default action of a button 
+  $(this) //get the element the user clicked on
+    .next('.accordion-panel') //select the next accordion panel
+    .not(':animated') //if it is not currently animating
+    .slideToggle(); //use slideToggle to show or hide it
+})</script>
+</body>
+</html>
