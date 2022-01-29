@@ -16,3 +16,5 @@
 [Урок 17](https://abkhadeeva123.github.io/lesson17/ " -  всплывающие окна") 
 
 [Урок 18](https://abkhadeeva123.github.io/lesson18_acardion/ " - акардионы")
+
+[Урок 18](https://abkhadeeva123.github.io/lesson18_tabs/ " - табы")
